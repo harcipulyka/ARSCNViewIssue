@@ -10,28 +10,10 @@
 		98BDEBDB29E68BE800F8C854 /* ar_memory_leak_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BDEBDA29E68BE800F8C854 /* ar_memory_leak_testApp.swift */; };
 		98BDEBDD29E68BE800F8C854 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BDEBDC29E68BE800F8C854 /* ContentView.swift */; };
 		98BDEBDF29E68BE900F8C854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98BDEBDE29E68BE900F8C854 /* Assets.xcassets */; };
-		98BDEBE329E68BE900F8C854 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98BDEBE229E68BE900F8C854 /* Preview Assets.xcassets */; };
-		98BDEBED29E68BE900F8C854 /* ar_memory_leak_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BDEBEC29E68BE900F8C854 /* ar_memory_leak_testTests.swift */; };
-		98BDEBF729E68BE900F8C854 /* ar_memory_leak_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BDEBF629E68BE900F8C854 /* ar_memory_leak_testUITests.swift */; };
-		98BDEBF929E68BE900F8C854 /* ar_memory_leak_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BDEBF829E68BE900F8C854 /* ar_memory_leak_testUITestsLaunchTests.swift */; };
+		98BDEC0629E68C2500F8C854 /* AnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BDEC0529E68C2500F8C854 /* AnchorViewController.swift */; };
+		98BDEC0829E68CBF00F8C854 /* AnchorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BDEC0729E68CBF00F8C854 /* AnchorView.swift */; };
+		98BDEC0D29E6A4DB00F8C854 /* SwiftUIARCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BDEC0C29E6A4DB00F8C854 /* SwiftUIARCardView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		98BDEBE929E68BE900F8C854 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 98BDEBCF29E68BE800F8C854 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98BDEBD629E68BE800F8C854;
-			remoteInfo = ar_memory_leak_test;
-		};
-		98BDEBF329E68BE900F8C854 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 98BDEBCF29E68BE800F8C854 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98BDEBD629E68BE800F8C854;
-			remoteInfo = ar_memory_leak_test;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		98BDEBD729E68BE800F8C854 /* ar_memory_leak_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ar_memory_leak_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,30 +21,14 @@
 		98BDEBDC29E68BE800F8C854 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98BDEBDE29E68BE900F8C854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98BDEBE029E68BE900F8C854 /* ar_memory_leak_test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ar_memory_leak_test.entitlements; sourceTree = "<group>"; };
-		98BDEBE229E68BE900F8C854 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		98BDEBE829E68BE900F8C854 /* ar_memory_leak_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ar_memory_leak_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		98BDEBEC29E68BE900F8C854 /* ar_memory_leak_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ar_memory_leak_testTests.swift; sourceTree = "<group>"; };
-		98BDEBF229E68BE900F8C854 /* ar_memory_leak_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ar_memory_leak_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		98BDEBF629E68BE900F8C854 /* ar_memory_leak_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ar_memory_leak_testUITests.swift; sourceTree = "<group>"; };
-		98BDEBF829E68BE900F8C854 /* ar_memory_leak_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ar_memory_leak_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98BDEC0529E68C2500F8C854 /* AnchorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorViewController.swift; sourceTree = "<group>"; };
+		98BDEC0729E68CBF00F8C854 /* AnchorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorView.swift; sourceTree = "<group>"; };
+		98BDEC0B29E6944A00F8C854 /* ar-memory-leak-test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ar-memory-leak-test-Info.plist"; sourceTree = SOURCE_ROOT; };
+		98BDEC0C29E6A4DB00F8C854 /* SwiftUIARCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIARCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		98BDEBD429E68BE800F8C854 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98BDEBE529E68BE900F8C854 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98BDEBEF29E68BE900F8C854 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +42,6 @@
 			isa = PBXGroup;
 			children = (
 				98BDEBD929E68BE800F8C854 /* ar_memory_leak_test */,
-				98BDEBEB29E68BE900F8C854 /* ar_memory_leak_testTests */,
-				98BDEBF529E68BE900F8C854 /* ar_memory_leak_testUITests */,
 				98BDEBD829E68BE800F8C854 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				98BDEBD729E68BE800F8C854 /* ar_memory_leak_test.app */,
-				98BDEBE829E68BE900F8C854 /* ar_memory_leak_testTests.xctest */,
-				98BDEBF229E68BE900F8C854 /* ar_memory_leak_testUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,38 +57,16 @@
 		98BDEBD929E68BE800F8C854 /* ar_memory_leak_test */ = {
 			isa = PBXGroup;
 			children = (
+				98BDEC0B29E6944A00F8C854 /* ar-memory-leak-test-Info.plist */,
 				98BDEBDA29E68BE800F8C854 /* ar_memory_leak_testApp.swift */,
 				98BDEBDC29E68BE800F8C854 /* ContentView.swift */,
 				98BDEBDE29E68BE900F8C854 /* Assets.xcassets */,
 				98BDEBE029E68BE900F8C854 /* ar_memory_leak_test.entitlements */,
-				98BDEBE129E68BE900F8C854 /* Preview Content */,
+				98BDEC0529E68C2500F8C854 /* AnchorViewController.swift */,
+				98BDEC0729E68CBF00F8C854 /* AnchorView.swift */,
+				98BDEC0C29E6A4DB00F8C854 /* SwiftUIARCardView.swift */,
 			);
 			path = ar_memory_leak_test;
-			sourceTree = "<group>";
-		};
-		98BDEBE129E68BE900F8C854 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				98BDEBE229E68BE900F8C854 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		98BDEBEB29E68BE900F8C854 /* ar_memory_leak_testTests */ = {
-			isa = PBXGroup;
-			children = (
-				98BDEBEC29E68BE900F8C854 /* ar_memory_leak_testTests.swift */,
-			);
-			path = ar_memory_leak_testTests;
-			sourceTree = "<group>";
-		};
-		98BDEBF529E68BE900F8C854 /* ar_memory_leak_testUITests */ = {
-			isa = PBXGroup;
-			children = (
-				98BDEBF629E68BE900F8C854 /* ar_memory_leak_testUITests.swift */,
-				98BDEBF829E68BE900F8C854 /* ar_memory_leak_testUITestsLaunchTests.swift */,
-			);
-			path = ar_memory_leak_testUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,42 +89,6 @@
 			productReference = 98BDEBD729E68BE800F8C854 /* ar_memory_leak_test.app */;
 			productType = "com.apple.product-type.application";
 		};
-		98BDEBE729E68BE900F8C854 /* ar_memory_leak_testTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 98BDEBFF29E68BE900F8C854 /* Build configuration list for PBXNativeTarget "ar_memory_leak_testTests" */;
-			buildPhases = (
-				98BDEBE429E68BE900F8C854 /* Sources */,
-				98BDEBE529E68BE900F8C854 /* Frameworks */,
-				98BDEBE629E68BE900F8C854 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				98BDEBEA29E68BE900F8C854 /* PBXTargetDependency */,
-			);
-			name = ar_memory_leak_testTests;
-			productName = ar_memory_leak_testTests;
-			productReference = 98BDEBE829E68BE900F8C854 /* ar_memory_leak_testTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		98BDEBF129E68BE900F8C854 /* ar_memory_leak_testUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 98BDEC0229E68BE900F8C854 /* Build configuration list for PBXNativeTarget "ar_memory_leak_testUITests" */;
-			buildPhases = (
-				98BDEBEE29E68BE900F8C854 /* Sources */,
-				98BDEBEF29E68BE900F8C854 /* Frameworks */,
-				98BDEBF029E68BE900F8C854 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				98BDEBF429E68BE900F8C854 /* PBXTargetDependency */,
-			);
-			name = ar_memory_leak_testUITests;
-			productName = ar_memory_leak_testUITests;
-			productReference = 98BDEBF229E68BE900F8C854 /* ar_memory_leak_testUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,14 +101,6 @@
 				TargetAttributes = {
 					98BDEBD629E68BE800F8C854 = {
 						CreatedOnToolsVersion = 14.3;
-					};
-					98BDEBE729E68BE900F8C854 = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 98BDEBD629E68BE800F8C854;
-					};
-					98BDEBF129E68BE900F8C854 = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 98BDEBD629E68BE800F8C854;
 					};
 				};
 			};
@@ -222,8 +118,6 @@
 			projectRoot = "";
 			targets = (
 				98BDEBD629E68BE800F8C854 /* ar_memory_leak_test */,
-				98BDEBE729E68BE900F8C854 /* ar_memory_leak_testTests */,
-				98BDEBF129E68BE900F8C854 /* ar_memory_leak_testUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,22 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98BDEBE329E68BE900F8C854 /* Preview Assets.xcassets in Resources */,
 				98BDEBDF29E68BE900F8C854 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98BDEBE629E68BE900F8C854 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98BDEBF029E68BE900F8C854 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,42 +138,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98BDEC0629E68C2500F8C854 /* AnchorViewController.swift in Sources */,
+				98BDEC0D29E6A4DB00F8C854 /* SwiftUIARCardView.swift in Sources */,
 				98BDEBDD29E68BE800F8C854 /* ContentView.swift in Sources */,
+				98BDEC0829E68CBF00F8C854 /* AnchorView.swift in Sources */,
 				98BDEBDB29E68BE800F8C854 /* ar_memory_leak_testApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98BDEBE429E68BE900F8C854 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98BDEBED29E68BE900F8C854 /* ar_memory_leak_testTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98BDEBEE29E68BE900F8C854 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98BDEBF729E68BE900F8C854 /* ar_memory_leak_testUITests.swift in Sources */,
-				98BDEBF929E68BE900F8C854 /* ar_memory_leak_testUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		98BDEBEA29E68BE900F8C854 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 98BDEBD629E68BE800F8C854 /* ar_memory_leak_test */;
-			targetProxy = 98BDEBE929E68BE900F8C854 /* PBXContainerItemProxy */;
-		};
-		98BDEBF429E68BE900F8C854 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 98BDEBD629E68BE800F8C854 /* ar_memory_leak_test */;
-			targetProxy = 98BDEBF329E68BE900F8C854 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		98BDEBFA29E68BE900F8C854 /* Debug */ = {
@@ -415,8 +267,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ar_memory_leak_test/Preview Content\"";
+				DEVELOPMENT_TEAM = T6W48A7MB9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ar-memory-leak-test-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Pretty please";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -435,7 +290,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xentara.ar-memory-leak-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,8 +308,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ar_memory_leak_test/Preview Content\"";
+				DEVELOPMENT_TEAM = T6W48A7MB9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ar-memory-leak-test-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Pretty please";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -471,96 +331,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xentara.ar-memory-leak-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		98BDEC0029E68BE900F8C854 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xentara.ar-memory-leak-testTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ar_memory_leak_test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ar_memory_leak_test";
-			};
-			name = Debug;
-		};
-		98BDEC0129E68BE900F8C854 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xentara.ar-memory-leak-testTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ar_memory_leak_test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ar_memory_leak_test";
-			};
-			name = Release;
-		};
-		98BDEC0329E68BE900F8C854 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xentara.ar-memory-leak-testUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ar_memory_leak_test;
-			};
-			name = Debug;
-		};
-		98BDEC0429E68BE900F8C854 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xentara.ar-memory-leak-testUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ar_memory_leak_test;
 			};
 			name = Release;
 		};
@@ -581,24 +357,6 @@
 			buildConfigurations = (
 				98BDEBFD29E68BE900F8C854 /* Debug */,
 				98BDEBFE29E68BE900F8C854 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		98BDEBFF29E68BE900F8C854 /* Build configuration list for PBXNativeTarget "ar_memory_leak_testTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				98BDEC0029E68BE900F8C854 /* Debug */,
-				98BDEC0129E68BE900F8C854 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		98BDEC0229E68BE900F8C854 /* Build configuration list for PBXNativeTarget "ar_memory_leak_testUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				98BDEC0329E68BE900F8C854 /* Debug */,
-				98BDEC0429E68BE900F8C854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
